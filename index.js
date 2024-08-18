@@ -1,5 +1,14 @@
 const express = require('express');
 const app = express();
-const port = process.env.NODE_ENV == 'production' ? 80 : 3000;
+const path = require('path');
+const port = parseInt(process.env.PORT) || 3000;
 
-const fs = require('fs');
+app.use('/posts', express.static(path.join(__dirname, 'public')));
+
+app.get('/', (req, res) => {
+    res.send('hello')
+})
+
+app.listen(port, () => console.log(`express server running on port ${port}`))
+
+module.exports = app;
