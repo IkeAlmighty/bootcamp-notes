@@ -1,0 +1,12 @@
+<h1>Meta Tags</h1>
+<p>What are meta tags?</p>
+<p>Meta tags communicate data to browsers and other computer programs. That data usually assists with rendering, browser searching, and accesibility.</p>
+<p><a href="https://stackoverflow.com/questions/19506028/do-you-need-to-close-meta-and-link-tags-in-html">The meta element is does not need a closing tag</a>, unlike normal HTML5 elements. The exception would be if a meta element is part of an XHTML document, which does require closing tags.</p>
+<p>Usually meta tags have a &#39;name&#39; attribute to identify them and a &#39;content&#39; tag to describe something about the html document in relation to the tag&#39;s identification.</p>
+<p>Some common examples and explanations:</p>
+<pre><code>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width initial-scale=1.0&quot;&gt;
+</code></pre>
+<p>This meta tag is commonly used in tandem with css media queries in mobile optimized websites to avoid problems that arise from some <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag">mobile devices using virtual viewports</a> in the rendering process of a web page.</p>
+<p>Using a viewport meta tag in a website that utilizes CSS media queries to dynamically organize the display of content on a screen insures that fonts are not rendered too small to read, and all the data on the webpage follows the rules set by the media queries.</p>
+<pre><code>&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE-edge&quot;&gt;
+</code></pre>

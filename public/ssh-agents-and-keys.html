@@ -1,0 +1,14 @@
+<h1>SSH Keys and SSH Agents</h1>
+<p>The tools used:</p>
+<ul>
+<li>ssh-keygen</li>
+<li>ssh-agent</li>
+<li>github</li>
+</ul>
+<p>These are notes for setting up ssh keys with your github account so future pushes of projects to github via git will be properly authenticated.</p>
+<ol>
+<li>use ssh-keygen to create a private and public key</li>
+<li>use ssh-agent to register your new key on your local machine</li>
+<li>in the settings on github, add the public key.</li>
+</ol>
+<p>It makes sense that public keys are used on the remote end of security systems, because remote ends are more likely to have the data leaked.</p>
