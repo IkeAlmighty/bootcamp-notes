@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/ikealmighty/bootcamp-notes#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "marked": "^14.0.0"
   }
 }
