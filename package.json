@@ -1,0 +1,30 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "A website containing my notes for the 2024/25 EdEx bootcamp associated with the University of Minnesota.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikealmighty/bootcamp-notes.git"
+  },
+  "keywords": [
+    "bootcamp",
+    "notes",
+    "edex",
+    "minnesota",
+    "webdev"
+  ],
+  "author": "ikealmighty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikealmighty/bootcamp-notes/issues"
+  },
+  "homepage": "https://github.com/ikealmighty/bootcamp-notes#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,9 @@
+# Bootcamp Notes
+
+This is a website I threw together before the start of the bootcamp I am participating in from Nov. to to April 2024/25.
+
+I joined this bootcamp so that I could earn some credentials and more easily network in the developer community to get an entry level job in web development. So publicizing this website seemed like a great way to show my dedication to potential employers as we as help out other people learning about web development.
+
+Let me know if you have any suggestions! You could make a pull request ;)
+
+-ike
