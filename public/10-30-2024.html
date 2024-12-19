@@ -1,0 +1,27 @@
+<ul>
+<li><p>browser&#39;s default css values are different across browsers</p>
+</li>
+<li><p>this is why we use <em>css resets</em></p>
+</li>
+<li><p>line-height property does not need a unit. Whenever you don&#39;t specify a unit, it becomes a multiple of the default line-height;</p>
+</li>
+<li><p>psuedo-classes are what you call selectors for :hover, :active, :visited, etc</p>
+</li>
+<li><p>emmett abbreviations can help me type faster</p>
+</li>
+<li><p>when selecting children with <strong>CSS combinators</strong>:
+space = AND &gt; = the specified child only + = the specified child that IMMEDIETLY follows the parent</p>
+</li>
+<li><p><strong>TOOL TIPS USING PSUEDO ELEMENTS</strong> if you make a parent element relative, you can create a tool tip by using</p>
+<pre><code>  parent:hover::after {
+      position: relative;
+      content: &#39;tooltip text&#39;
+      top: 1rem;
+      left: 0;
+      background-color: white;
+      border: 1px solid black;
+  }
+</code></pre>
+</li>
+</ul>
+<p>This creates a psuedo element after the parent element.</p>

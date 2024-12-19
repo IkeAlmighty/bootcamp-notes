@@ -1,0 +1,19 @@
+<ul>
+<li><p>event bubbling: whenever an event is fired from the DOM, it &#39;bubbles&#39; up the DOM hierarchy. So, this means that children will trigger event listeners of their parents as well:</p>
+<pre><code>parent.addEventListener(&#39;click&#39;, ()=&gt; console.log(&#39;click!&#39;));
+child.addEventListener(&#39;click&#39;, ()=&gt; console.log(&#39;click child!&#39;));
+</code></pre>
+</li>
+</ul>
+<p>Clicking on the child will also fire the click event for the parent element.</p>
+<ul>
+<li><p>data attributes - element attributes that only provide data for an element and nothing else. Attributes can be accessed by javascript, and used in code to make decisions.</p>
+<pre><code>&lt;div id=&quot;myDiv&quot; custom-attr=&quot;my custom attribute&quot;/&gt;
+</code></pre>
+</li>
+</ul>
+<p>and in a link js file:</p>
+<pre><code>    const myDiv = document.querySelector(&#39;#myDiv&#39;);
+    const customAttributeValue = myDiv.getAttribute(&#39;custom-attr&#39;);
+</code></pre>
+<p><em>cusomAttributeValue</em> now contains the value &#39;my custom attribute&#39;</p>
